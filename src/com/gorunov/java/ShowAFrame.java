@@ -15,9 +15,9 @@ public class ShowAFrame {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
         Scanner scanner = new Scanner(System.in);
-        int i = scanner.nextInt();
         String str = scanner.nextLine();
         scanner.close();
-        System.out.println("End!  "  + i +" "+ str);
+        Account account1 = new Account("Fedor", "Yamskoy, 10", 150.0);
+        System.out.println(account1);
     }
 }
